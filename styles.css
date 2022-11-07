@@ -1,0 +1,70 @@
+#main {
+    width: 1126px;
+    height: 750px;
+    border: 5px solid rgb(163, 163, 163);
+    background-image: url("imagens/mesa.jpg");
+    background-size: cover;
+    display: block;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+body{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(163, 163, 163);
+}
+
+button {
+    width: 300px;
+    padding: 5px 0;
+    font-size: 35px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto 20px auto;
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bolder;
+    display:block;
+}
+
+#iniciar:hover {
+    background-color: rgb(182, 139, 31);
+}
+
+#iniciar:active {
+    width: 290px;
+}
+
+
+
+#novacarta:hover {
+    background-color: rgb(182, 139, 31);
+}
+
+#novacarta:active {
+    width: 290px;
+}
+
+h1 {
+    color: goldenrod
+}
+
+h2{
+    color: white;
+    margin: 80px 0 20px 0;
+}
+
+h3 {
+    color: white;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+#player-el {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
