@@ -1,11 +1,11 @@
 #main {
-    width: 1126px;
-    height: 750px;
+    width: 1252px;
+    height: 834px;
     border: 5px solid rgb(163, 163, 163);
-    background-image: url("imagens/mesa.jpg");
+    background-image: url("imagens/mesa2.jpg");
     background-size: cover;
     display: block;
-    margin: 100px auto;
+    margin: auto auto;
     border-radius: 20px;
 }
 
@@ -28,33 +28,25 @@ button {
     color: #016f32;
     font-weight: bolder;
     display:block;
+    background-color: goldenrod;
+    background-color: goldenrod;
 }
 
-#iniciar:hover {
-    background-color: rgb(182, 139, 31);
+button:hover {
+    background-color: rgb(139, 107, 25);
 }
 
-#iniciar:active {
-    width: 290px;
-}
-
-
-
-#novacarta:hover {
-    background-color: rgb(182, 139, 31);
-}
-
-#novacarta:active {
+button:active {
     width: 290px;
 }
 
 h1 {
-    color: goldenrod
+    color:goldenrod;
 }
 
 h2{
     color: white;
-    margin: 80px 0 20px 0;
+    margin: 20px 0 80px 0;
 }
 
 h3 {
@@ -67,4 +59,16 @@ h3 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+}
+
+.cards {
+    flex: 1;
+}
+
+.cards:first-child {
+    margin-right: 20px;
+}
+
+#cardsParent {
+    display: flex;
 }
