@@ -11,11 +11,20 @@
     <div id="main">
         <h1>BLACKJACK</h1>
         <h2 id="message-el">Quer jogar uma rodada?</h2>
-        <h3 id="cards-el">Cartas:</h3>
-        <h3 id="soma-el">Soma:</h3>
+        <div id="cardsParent">
+            <div class="cards">
+                <h3 id="cards-el">Suas cartas:</h3>
+                <h3 id="soma-el">Soma:</h3>
+            </div>
+            <div class="cards">
+                <h3 id="dealerCards-el">Cartas do dealer:</h3>
+                <h3 id="dealerSum-el">Soma:</h3> 
+            </div>
+        </div>
         <button id="iniciar" onclick="start()">INICIAR JOGO</button>
         <button id="novacarta" onclick="newCard()">NOVA CARTA</button>
-        <p id="player-el"></p>
+        <button id="parar" onclick="stop()">PARAR</button>
+        <!--<p id="player-el"></p>-->
     </div>
     <script src="script.js"></script>
 </body>
